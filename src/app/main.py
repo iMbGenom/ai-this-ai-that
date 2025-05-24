@@ -2,6 +2,8 @@
 from fastapi import FastAPI
 # Import BaseModel for data validation
 from pydantic import BaseModel
+# Import model
+from app.model import predict_sentiment
 
 # Init FastAPI instance
 app = FastAPI()
@@ -14,5 +16,7 @@ class Input(BaseModel):
 @app.post("/predict")
 # function predict with params input (type data Input)
 async def predict(input: Input):
-    # Return a back the f input
-    return {"prediction": f"Received: {input.text}"}
+    sentiment = predict_sentiment(input.text)
+    # Return back the input
+    return {"prediction": sentiment}
+    # return {"prediction": f"Received: {input.text}"}

@@ -1,0 +1,26 @@
+[
+    {
+        "text": "I love this!",
+        "label": "positive"
+    },
+    {
+        "text": "This is terrible",
+        "label": "negative"
+    },
+    {
+        "text": "Amazing product",
+        "label": "positive"
+    },
+    {
+        "text": "Worst experience",
+        "label": "negative"
+    },
+    {
+        "text": "Are you insane?",
+        "label": "negative"
+    },
+    {
+        "text": "Looks Good To Me",
+        "label": "positive"
+    }
+]
