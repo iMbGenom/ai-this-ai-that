@@ -58,4 +58,4 @@ coverage
 
 # python use virtual environment
 venv
-app/__pycache__
+**/__pycache__/
