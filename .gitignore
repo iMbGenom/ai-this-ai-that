@@ -55,3 +55,7 @@ Thumbs.db
 .nyc_output
 .vscode
 coverage
+
+# python use virtual environment
+venv
+app/__pycache__
