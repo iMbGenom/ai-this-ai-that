@@ -1,1 +1,1 @@
-# Let be empty file for now
+from usecase.classification_usecase import ClassificationUsecase

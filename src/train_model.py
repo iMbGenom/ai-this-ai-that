@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 import joblib
 import json
 from const.const import GENERATED_MODEL_PATH
-from const.const import TRAINING_DATA_PATH
+from const.const import TRAINING_CLASSIFICATION_SENTIMENT_PATH
 
 # # load json file
 # with open(TRAINING_DATA_PATH, "r") as f:
