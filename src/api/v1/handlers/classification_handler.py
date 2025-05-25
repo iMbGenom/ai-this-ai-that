@@ -4,8 +4,8 @@ from dependency_injector.wiring import Provide
 from core.container import Container
 from schema.classification_schema import SentimentPredictRequest, SentimentPredictResponse
 from usecase.classification_usecase import ClassificationUsecase
-import logging
-logger = logging.getLogger(__name__)
+from utils.logger import get_logger
+logger = get_logger(__name__)
 
 classification = APIRouter(
     prefix="/classification",

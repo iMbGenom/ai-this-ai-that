@@ -1,7 +1,7 @@
 from functools import wraps
 from core.config import Configs
-import logging
-logger = logging.getLogger(__name__)
+from utils.logger import get_logger
+logger = get_logger(__name__)
 
 def redis_enabled(default_return=None):
     def decorator(func):

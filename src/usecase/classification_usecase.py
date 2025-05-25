@@ -4,8 +4,8 @@ from utils.redis_cache import get_cache_key, get_cached_prediction, set_cached_p
 from model.classification_model import Classification
 from fastapi import BackgroundTasks
 from jobs.bg_task_jobs import job_to_analyze_and_cache
-import logging
-logger = logging.getLogger(__name__)
+from utils.logger import get_logger
+logger = get_logger(__name__)
 
 class ClassificationUsecase():
     def __init__(self):
