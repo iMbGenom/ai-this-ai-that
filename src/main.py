@@ -1,22 +1,24 @@
-# Import FastAPI Framework
 from fastapi import FastAPI
-# Import BaseModel for data validation
-from pydantic import BaseModel
-# Import model
 from model.model import predict_sentiment
+from utils.class_object import singleton
+from utils.date import get_now_utc
+from datetime import datetime, timezone
+from api.v1.routes import v1_routers
+from core.config import Configs
 
-# Init FastAPI instance
-app = FastAPI()
+@singleton
+class AppCreator:
+    def __init__(self):
+        self.app = FastAPI(
+            title="Ai This, Ai That, Holy BatChest",
+            version="0.0.1"
+        )
 
-# Define the structure of the incoming request body using Pydantic
-class Input(BaseModel):
-    text: str # expects JSON body like {"text": "bakayaro konoyaro"}
+        @self.app.get("/")
+        def root():
+            return {"timestamp": get_now_utc()}
+        
+        self.app.include_router(v1_routers, prefix=Configs.API_V1_STR)
 
-# Define Endpoint
-@app.post("/predict")
-# function predict with params input (type data Input)
-async def predict(input: Input):
-    sentiment = predict_sentiment(input.text)
-    # Return back the input
-    return {"prediction": sentiment}
-    # return {"prediction": f"Received: {input.text}"}
+app_creator = AppCreator()
+app = app_creator.app

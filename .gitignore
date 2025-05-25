@@ -59,3 +59,4 @@ coverage
 # python use virtual environment
 venv
 **/__pycache__/
+requirements-lock.txt
