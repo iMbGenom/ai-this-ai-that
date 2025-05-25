@@ -5,3 +5,4 @@ class SentimentPredictRequest(BaseModel):
 
 class PredictionResponse(BaseModel):
     prediction: str
+    cached: bool
