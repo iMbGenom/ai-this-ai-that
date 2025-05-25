@@ -1,1 +1,1 @@
-# Let be empty file for now
+from repository.classification_repository import ClassificationRepository

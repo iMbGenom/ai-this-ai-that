@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-from model.model import predict_sentiment
 from utils.class_object import singleton
 from utils.date import get_now_utc
 from datetime import datetime, timezone
