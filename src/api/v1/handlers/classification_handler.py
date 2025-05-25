@@ -16,4 +16,5 @@ usecase = ClassificationUsecase()
 @classification.post("/sentiment-predict", response_model=SentimentPredictResponse)
 # @inject
 async def predict_sentiment(payload: SentimentPredictRequest):
+    logger.info("Received payload: %s", payload)
     return usecase.predict(payload)
