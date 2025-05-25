@@ -3,6 +3,6 @@ from pydantic import BaseModel
 class SentimentPredictRequest(BaseModel):
     text: str
 
-class PredictionResponse(BaseModel):
+class SentimentPredictResponse(BaseModel):
     prediction: str
     cached: bool
