@@ -15,7 +15,8 @@ async def predict(input: SentimentPredictRequest, background_tasks: BackgroundTa
     cache_key = get_cache_key(input.text)
     cached = get_cached_prediction(cache_key)
     if cached:
-        return {"prediction": json.loads(cached), "cached": True}
+        decoded = json.loads(cached)
+        return SentimentPredictResponse(prediction=decoded, cached=True)
     
     # logic
     result = predict_sentiment(input.text)
@@ -26,4 +27,5 @@ async def predict(input: SentimentPredictRequest, background_tasks: BackgroundTa
     # save redis inline
     # set_cached_prediction(cache_key, result)
 
-    return {"prediction": result, "cached": False}
+    return SentimentPredictResponse(prediction=result, cached=False)
+    # return {"prediction": result, "cached": False}

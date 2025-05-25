@@ -59,4 +59,7 @@ coverage
 # python use virtual environment
 venv
 **/__pycache__/
+generated/
+src/generated
+*.pkl
 requirements-lock.txt
