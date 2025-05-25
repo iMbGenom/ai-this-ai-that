@@ -1,10 +1,7 @@
 from functools import wraps
-
 from dependency_injector.wiring import inject as di_inject
 from loguru import logger
-
 from usecase.base_usecase import BaseUsecase
-
 
 def inject(func):
     @di_inject

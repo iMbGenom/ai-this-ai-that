@@ -4,6 +4,8 @@ from utils.date import get_now_utc
 from datetime import datetime, timezone
 from api.v1.routes import v1_routers
 from core.config import Configs
+import logging
+logging.basicConfig(level=logging.INFO)
 
 @singleton
 class AppCreator:

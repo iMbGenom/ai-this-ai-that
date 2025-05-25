@@ -1,1 +1,1 @@
-# Let be empty file for now
+from model.classification_model import Classification
