@@ -1,9 +1,7 @@
 from dependency_injector import containers, providers
-
 from core.config import Configs
 from repository import *
 from usecase import *
-
 
 class Container(containers.DeclarativeContainer):
     wiring_config = containers.WiringConfiguration(
@@ -11,7 +9,6 @@ class Container(containers.DeclarativeContainer):
             "api.v1.handlers.classification"
         ]
     )
-
 
     classification_repository = providers.Factory(ClassificationRepository)
 
