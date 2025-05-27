@@ -17,4 +17,5 @@ usecase = ClassificationUsecase()
 # @inject
 async def predict_sentiment(payload: SentimentPredictRequest):
     logger.info("Received payload: %s", payload)
+    # todo: use base handler JSONResponse (from fastapi.responses import JSONResponse)
     return usecase.predict(payload)
