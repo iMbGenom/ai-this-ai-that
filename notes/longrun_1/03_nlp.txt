@@ -1,0 +1,9 @@
+-- NLP Intro
+-- NLP Text Preprocessing
+-- NLP Identifying Parts of Speech and Named Entities
+-- NLP Module Sentiment Analysis
+-- NLP Module Vectorizing Text
+-- NLP Module Topic Modelling
+-- NLP Module Building Your Own Text Classifier
+-- NLP Module Categorizing Fake News (Case Study)
+-- NLP Module The Future of NLP

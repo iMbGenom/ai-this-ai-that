@@ -1,0 +1,102 @@
+IDEATION :
+1. estimate the price of house. it can be boost real estate business
+    property name, price, size, n rooms, n bedrooms, distance, public infra
+
+-- 02. Data is essentials
+1. structured vs unstructured data
+2. how to collect data
+3. labelled and unlabelled data
+4. metadata that describes data
+
+-- 03. AI Techniques
+1. ML, like ideation #1
+2. supervised, unsupervised, reinforcement learning
+3. deep learning: ann (artificial neural network)
+
+-- 04. AI Branches
+1. robotics
+    -> multiple types of AI
+        * computer vision: object detection and environment understanding --> perceive the environment
+        * navigation: navigation & mapping --> make decisions
+        * reinforcement: decision making --> communicate with people
+        * NLP (Natural Language Processing): for understanding and generating human language --> act accordingly
+2. computer visions
+    1. CNNs (convolutional neural networks)
+    2. transformers: apply transformers arch to images for the purposes of computer vision
+    3. GANs (Generative Adversarial Networks)
+    4. U-NET: Efficiently scaling neural network dimensions and utilizing computational resources
+3. Traditional ML
+    1. ML model to detect fraudulent activity
+    2. Predict mortgage repayment likelihood
+4. Generative AI
+    can use several techniques to achieve gen AI
+    a. LLM (Large Language Models)
+    b. Diffusion Models
+    c. Generative Adversarial Networks
+    d. Neural Radiance Fields
+
+-- 05. Understanding Generative AI
+1. Richer the training data for LLMs, the smarter and more versatile they become
+2. a. Supervised: too expensive
+   b. Unsupervised: No goal
+   c. Self-supervised: scalable, processes unlabelled data, reduced labelling
+        analyze text datasets -> generates labels -> predicts content -> uses contextual cues from surrounding words
+3. Four core language modeling techniques
+    1. N-grams
+    2. Recurrent Neural Networks (RNNs)
+    3. Long Short-Term Memory (LSTMs)
+    4. Transformers
+4. Different stages when building a LLM (not sequential sometimes)
+    1. Model design:
+        a. select the type of arch to employ (Transformers, CNNs, RNNs, etc)
+        b. decide the depth of model
+        c. decide the number of layers in the neural network
+        d. the total parameters to contain
+    2. Dataset engineering (crucial): collection, cleansing, structuring of training data model
+    3. Pretraining
+    4. Preliminary evaluation
+    5. Post-training
+    6. Finetuning
+    7. Final testing & evaluation
+5. Prompt eng  vs Fine tuning vs RAG 
+
+-- 06. Practical challenge
+1. Inconsistency & hallucination
+2. Budgeting and API costs
+3. Latency
+4. Running out of data
+
+-- 07. AI Tech Stack
+1. Python (numpy (multidimensional array, math func), pandas (data pre-processing))
+2. Working with APIs
+3. Vector databases
+4. The importance of open source
+5. Hugging face
+6. LangChain
+7. AI evaluation tools
+
+-- 08. AI Job position
+1. AI Strategist
+2. AI Developer
+    - Python. Experience on match lib like: numpy, pandas for data cleaning
+    - Understanding of statistics, linear algebra, calculus, probability
+    - AI research and complex topics like: deep learning, transformers, vector embedding, tokenization
+    - Containerization devops practices like docker, API design, cloud
+3. AI Engineer
+    - NOT focus on AI modeling & training
+    - YES focus on integrating AI foundation models
+    - Build the BRIDGE, like OpenAI & Google.
+    - Optimize AI model's performance: fine tuning, prompt engineering & RAG AI
+    - Python. Most data science & AI Lib. pandas, numpy, hugging face, langchain (enables the integration of foundation models into products). Offers the flexibility to select & switch between various LLMs.
+    - LangChain helps simplify the AI integration process significantly
+    - Vector databases: Pinecone (handling complex data structure like embedding)
+    - Solid understanding of LLMs and NLP.
+    - Working with cloud services and containerization tools.
+
+-- 09. AI Module looking ahead
+1. Ethics:
+    1. Concieved
+    2. Designed
+    3. Developed
+    4. Trained
+    5. Refined

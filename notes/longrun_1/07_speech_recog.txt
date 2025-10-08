@@ -1,0 +1,10 @@
+-- 49. Speech Recognition Module Introduction
+-- 50. Speech Recognition Module Sound and Speech Basics
+-- 51. Speech Recognition Module Analog to Digital Conversion
+-- 52. Speech Recognition Module Audio Feature Extraction for AI Applications
+-- 53. Speech Recognition Module Technology Mechanics
+-- 54. Speech Recognition Module Setting Up the Environment
+-- 55. Speech Recognition Module Transcribing Audio with Google Web Speech API
+-- 56. Speech Recognition Module Background Noise and Spectrograms
+-- 57. Speech Recognition Module Transcribing Audio with OpenAI's Whisper
+-- 58. Speech Recognition Module Final Discussion and Future Directions

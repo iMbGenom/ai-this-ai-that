@@ -1,0 +1,10 @@
+-- 35. LangChain Module Introduction
+-- 36. LangChain Module Tokens, Models, and Prices
+-- 37. LangChain Module Setting Up the Environment
+-- 38. LangChain Module The OpenAI API
+-- 39. LangChain Module Model Inputs
+-- 40. LangChain Module Message History and Chatbot Memory
+-- 41. LangChain Module Output Parsers
+-- 42. LangChain Module LangChain Expression Language (LCEL)
+-- 43. LangChain Module Retrieval Augmented Generation (RAG)
+-- 44. LangChain Module Tools and Agents

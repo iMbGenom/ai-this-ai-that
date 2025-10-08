@@ -1,0 +1,4 @@
+-- 45. Vector Databases Module Introduction
+-- 46. Vector Databases Module Basics of Vector Space and High-Dimensional Data
+-- 47. Vector Databases Module Introduction to The Pinecone Vector Database
+-- 48. Vector Databases Module Semantic Search with Pinecone and Custom  (Case Study)
