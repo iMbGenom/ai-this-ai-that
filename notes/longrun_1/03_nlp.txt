@@ -1,9 +1,53 @@
+NLTK nltk Natural Language Tool Kit
+
 -- NLP Intro
 -- NLP Text Preprocessing
+	1. The important of data prep
+	2. Lowercase
+	3. Removing stop words (from nltk.corpus import stopwords), remove unused word like me, is, are
+	4. RegEx. e.g to find name, etc
+	5. Tokenization
+	6. Stemming -> likes_tokens = ['likes', 'better', 'worse']. connecting, connected, connectivity, connect
+	7. Lemmatization: a Natural Language Processing (NLP) technique that reduces words to their dictionary-recognized base or root form, known as a lemma, by considering their meaning and part of speech within a sentence. Unlike stemming, which simply chops off word endings, lemmatization uses a vocabulary and morphological analysis to ensure the resulting lemma is a valid word, improving text preprocessing for applications like search engines, chatbots, and sentiment analysis
+		Stemming
+			is a cruder method that simply chops off word endings to get a "stem". For example, "running" might become "run," but "better" might become "better" or "bet."
+		Lemmatization
+			is more linguistically sophisticated. For example, "running" becomes "run," and "better" correctly becomes "good".
+	8. N-gram
+	9. --practices--
+	10. Practical task
 -- NLP Identifying Parts of Speech and Named Entities
+	1. Parts of Speech (PoS) - Pron, Verb, Det, Adj, Noun - there is practices
+	2. Named Entities Recogniztion (NER) - Person, Places, Location - there is practices
+	3. Practical task
 -- NLP Module Sentiment Analysis
+	1. Rule-based SA
+	2. Pre-trained transformers models
+	3. Practical task
 -- NLP Module Vectorizing Text
--- NLP Module Topic Modelling
--- NLP Module Building Your Own Text Classifier
--- NLP Module Categorizing Fake News (Case Study)
--- NLP Module The Future of NLP
+	1. Numerical representation of text
+		a. Bag of Words: counts which words appear in which docs
+		b. TF-IDF (Term Frequency - Inverse Document Frequency): Do it after BoW
+25. NLP Module Topic Modelling
+	1. what is topic modelling?
+		topic 1: equipment (videos, audio, special hardware)
+		topic 2: media (celebrities, journalists, publication)
+		topic 3: government (regulations, policy)
+	2. when to use topic modelling: customer feedback, customer reviews, etc
+	3. Latent Dirichlet Allocation (LDA)
+	4. note
+	5. LDA in Python
+	6. Latent Semantic Analysis (LSA)
+	7. LSA in Python
+	8. How many topics: use coherence score/value
+26. NLP Module Building Your Own Text Classifier
+	1. Building a custom text classifier
+		a. Logistic regression
+		b. Naive Bayes
+		c. Linear support vector machine
+27. NLP Module Categorizing Fake News (Case Study)
+	---SKIPPED
+28. NLP Module The Future of NLP
+	1. Deep Learning
+	2. Deep Learning for NLP. like CGPT. LLMs used in: chatbot, content generation, language translation
+	3. Non-English NLP. check iNLTK
