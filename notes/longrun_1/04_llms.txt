@@ -1,8 +1,0 @@
--- 29. LLMs Module Introduction to Large Language Models
-	6. Pre-training and fine tuning
--- 30. LLMs Module The Transformer Architecture
-	
--- 31. LLMs Module Getting Started With GPT Models
--- 32. LLMs Module Hugging Face Transformers
--- 33. LLMs Module Question and Answer Models With BERT
--- 34. LLMs Module Text Classification With XLNet
